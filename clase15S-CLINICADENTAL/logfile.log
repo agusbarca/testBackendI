@@ -1,0 +1,28 @@
+[2023-05-25 15:16:54] [ INFO ] [DomicilioDAOH2:40] DOMICILIO GUARDADO: Calle 13, Localidad, Provincia
+[2023-05-25 15:16:54] [ ERROR] [PacienteDAOH2:49] Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, DNI, FECHA, DOMICILIO_ID) VALUES (?, ?, ?, ?, ?, ?) [21002-214]
+[2023-05-25 15:16:54] [ INFO ] [PacienteDAOH2:55] Oops, tuvimos un problema
+[2023-05-25 15:18:03] [ INFO ] [DomicilioDAOH2:40] DOMICILIO GUARDADO: Calle 13, Localidad, Provincia
+[2023-05-25 15:18:03] [ INFO ] [PacienteDAOH2:46] PACIENTE GUARDADO: PACIENTE: [ ID: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fecha de ingreso: 2023-05-02 - Domicilio: Calle 13, Localidad, Provincia ]
+[2023-05-25 15:21:22] [ ERROR] [PacienteDAOH2:155] Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID = ?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID = ? [42001-214]
+[2023-05-25 15:21:22] [ INFO ] [PacienteDAOH2:160] Oops, tuvimos un problema
+[2023-05-25 15:21:22] [ INFO ] [DomicilioDAOH2:120] DOMICILIO SOLICITADO: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-25 15:21:22] [ INFO ] [PacienteDAOH2:121] PACIENTE SOLICITADO: PACIENTE: [ ID: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fecha de ingreso: 2023-05-02 - Domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia ]
+[2023-05-25 15:22:57] [ INFO ] [PacienteDAOH2:152] Se ha ELIMINADO el paciente con el id: 3
+[2023-05-25 15:22:57] [ INFO ] [PacienteDAOH2:121] PACIENTE SOLICITADO: null
+[2023-05-25 15:26:53] [ INFO ] [PacienteDAOH2:156] Se ha ELIMINADO el paciente con el id: 3
+[2023-05-25 15:26:53] [ INFO ] [PacienteDAOH2:123] El paciente solicitado (con id: 3) no fue hallado
+[2023-05-25 15:31:32] [ INFO ] [DomicilioDAOH2:122] DOMICILIO SOLICITADO: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2023-05-25 15:31:32] [ INFO ] [DomicilioDAOH2:122] DOMICILIO SOLICITADO: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2023-05-25 15:31:32] [ INFO ] [PacienteDAOH2:88] LISTADO DE TODOS LOS PACIENTES: [PACIENTE: [ ID: 1 - Nombre: Emiliano - Apellido: Cellilli - DNI: 35464856 - Fecha de ingreso: 2023-05-24 - Domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts ], PACIENTE: [ ID: 2 - Nombre: Pablo - Apellido: Clemente - DNI: 3548546 - Fecha de ingreso: 2023-05-24 - Domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur ]]
+[2023-05-25 15:32:54] [ INFO ] [DomicilioDAOH2:40] DOMICILIO GUARDADO: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-25 15:32:54] [ INFO ] [PacienteDAOH2:46] PACIENTE GUARDADO: PACIENTE: [ ID: 4 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fecha de ingreso: 2023-05-02 - Domicilio: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia ]
+[2023-05-25 15:33:18] [ INFO ] [DomicilioDAOH2:122] DOMICILIO SOLICITADO: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2023-05-25 15:33:18] [ INFO ] [DomicilioDAOH2:122] DOMICILIO SOLICITADO: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2023-05-25 15:33:18] [ INFO ] [DomicilioDAOH2:122] DOMICILIO SOLICITADO: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-25 15:33:18] [ INFO ] [PacienteDAOH2:88] LISTADO DE TODOS LOS PACIENTES: [PACIENTE: [ ID: 1 - Nombre: Emiliano - Apellido: Cellilli - DNI: 35464856 - Fecha de ingreso: 2023-05-24 - Domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts ], PACIENTE: [ ID: 2 - Nombre: Pablo - Apellido: Clemente - DNI: 3548546 - Fecha de ingreso: 2023-05-24 - Domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur ], PACIENTE: [ ID: 4 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fecha de ingreso: 2023-05-02 - Domicilio: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia ]]
+[2023-05-25 15:33:58] [ INFO ] [DomicilioDAOH2:122] DOMICILIO SOLICITADO: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2023-05-25 15:33:58] [ INFO ] [DomicilioDAOH2:122] DOMICILIO SOLICITADO: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2023-05-25 15:33:58] [ INFO ] [DomicilioDAOH2:122] DOMICILIO SOLICITADO: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2023-05-25 15:33:58] [ INFO ] [PacienteDAOH2:88] LISTADO DE TODOS LOS PACIENTES: [PACIENTE: [ ID: 1 - Nombre: Emiliano - Apellido: Cellilli - DNI: 35464856 - Fecha de ingreso: 2023-05-24 - Domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts ], PACIENTE: [ ID: 2 - Nombre: Pablo - Apellido: Clemente - DNI: 3548546 - Fecha de ingreso: 2023-05-24 - Domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur ], PACIENTE: [ ID: 4 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fecha de ingreso: 2023-05-02 - Domicilio: Id: 5 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia ]]
